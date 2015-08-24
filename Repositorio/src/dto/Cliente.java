@@ -1,25 +1,26 @@
-
+package dto;
 public class Cliente {
-	
+
 	private int id;
 	private String nombre;
 	private String telefono;
 	private String domicilio;
 	private String condicion_venta;
-	
-	public Cliente()
-	{
-		
+	private String test;
+
+	public Cliente() {
+
 	}
-	
-	public Cliente(int id,String nombre, String apellido, String telefono, String domicilio, String condicion_venta) {
+
+	public Cliente(int id, String nombre, String apellido, String telefono,
+			String domicilio, String condicion_venta) {
 		this.id = id;
 		this.nombre = nombre;
 		this.telefono = telefono;
 		this.domicilio = domicilio;
 		this.condicion_venta = condicion_venta;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
@@ -51,7 +52,7 @@ public class Cliente {
 	public void setDomicilio(String domicilio) {
 		this.domicilio = domicilio;
 	}
-	
+
 	public String getCondicion() {
 		return condicion_venta;
 	}
@@ -59,6 +60,5 @@ public class Cliente {
 	public void setCondicion(String condicion) {
 		this.condicion_venta = condicion;
 	}
-	
 
 }
