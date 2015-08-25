@@ -1,0 +1,13 @@
+package dto;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import java.rmi.Remote;
+		import java.rmi.RemoteException;
+		import java.util.ArrayList;
+		import java.util.List;
+		
+		import dto.*;
+	}
+}
+
