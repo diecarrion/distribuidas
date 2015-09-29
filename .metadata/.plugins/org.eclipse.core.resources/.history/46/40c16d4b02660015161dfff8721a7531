@@ -1,0 +1,16 @@
+package entities;
+
+public class ComparativaPrecio {
+	private int id;
+	private float mejorPrecio;
+	
+	public ComparativaPrecio()
+	{}
+
+	public ComparativaPrecio(int id, float mejorPrecio)
+	{
+		this.id = id;
+		this.mejorPrecio = mejorPrecio;
+	}
+	
+}

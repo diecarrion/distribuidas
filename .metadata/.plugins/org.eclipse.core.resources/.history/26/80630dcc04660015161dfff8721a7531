@@ -1,0 +1,37 @@
+package entities;
+
+import java.util.Date;
+
+public class BultoOV {
+	private int id;
+	private Date fecha;
+	private OficinaVenta oficina;
+	private Factura factura;
+	private Cliente cliente;
+	private RemitoCliente remito;
+	
+	public BultoOV() {
+
+	}
+
+	public BultoOV(int id, Date fecha, OficinaVenta oficina, Factura factura, Cliente cliente, RemitoCliente remito){
+		this.id = id;
+		this.fecha = fecha;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public Date getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+}

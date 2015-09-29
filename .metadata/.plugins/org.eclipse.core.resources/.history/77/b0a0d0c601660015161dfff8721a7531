@@ -1,0 +1,10 @@
+package entities;
+public class Stock {
+	private int id;
+	private int cantidad;
+	private float precioUnitario;
+	private Rodamiento rodamiento;
+	private OrdenCompraProveedor ordenProveedor;
+	
+	
+}

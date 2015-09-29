@@ -1,0 +1,34 @@
+package entities;
+
+import java.util.Date;
+
+public class RemitoTransporte {
+	private int id;
+	private Date fecha;
+	//private OficinaVenta oficina;
+	
+	public RemitoTransporte() {
+
+	}
+
+	public RemitoTransporte(int id, Date fecha){
+		this.id = id;
+		this.fecha = fecha;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public Date getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+}

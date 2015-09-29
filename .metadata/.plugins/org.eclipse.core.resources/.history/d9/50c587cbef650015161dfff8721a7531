@@ -1,0 +1,14 @@
+package entities;
+public class Rodamiento {
+
+	private int id;
+	private String codigoSKF;
+	private String caracteristicas;
+	private String marca;
+	private String origen;
+	
+	public Rodamiento() {
+
+	}
+	
+}

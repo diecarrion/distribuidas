@@ -1,0 +1,38 @@
+package entities;
+
+import java.util.Date;
+
+public class OrdenCompraCliente {
+	private int numero;
+	private Date fecha;
+	//private OficinaVenta oficina;
+	private Cliente cliente;
+	private RemitoCliente remito
+	private Pedido pedido;
+	
+	public OrdenCompraCliente() {
+
+	}
+
+	public OrdenCompraCliente(int num, Date fecha){
+		this.numero = num;
+		this.fecha = fecha;
+	}
+	
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	public Date getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+
+}

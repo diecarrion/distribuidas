@@ -1,0 +1,12 @@
+package entities;
+
+import java.util.Date;
+
+public class ListaPrecio {
+	private int id;
+	private Date fecha;
+	private float precio;
+	private Proveedor proveedor;
+	
+
+}

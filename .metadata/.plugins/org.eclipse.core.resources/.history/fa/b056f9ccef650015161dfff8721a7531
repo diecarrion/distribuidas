@@ -1,0 +1,25 @@
+package entities;
+
+import java.util.Date;
+
+public class Rodamiento {
+
+	private int id;
+	private String codigoSKF;
+	private String caracteristicas;
+	private String marca;
+	private String origen;
+	
+	public Rodamiento() {
+
+	}
+	
+	public Rodamiento(int id, String codigoSKF, String caracteristicas, String marca, String origen ){
+		this.id = id;
+		this.codigoSKF = codigoSKF;
+		this.caracteristicas = caracteristicas;
+		this.marca = marca;
+		this.origen = origen;
+	}
+	
+}

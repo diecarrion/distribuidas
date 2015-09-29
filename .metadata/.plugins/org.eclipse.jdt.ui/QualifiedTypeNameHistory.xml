@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="entities.BultoCC"/>
+<fullyQualifiedTypeName name="entities.EstadoOrdenCompraCliente"/>
+<fullyQualifiedTypeName name="entities.Proveedor"/>
+<fullyQualifiedTypeName name="entities.ComparativaPrecio"/>
+<fullyQualifiedTypeName name="entities.RemitoTransporte"/>
+<fullyQualifiedTypeName name="entities.Factura"/>
+<fullyQualifiedTypeName name="entities.Rodamiento"/>
+<fullyQualifiedTypeName name="entities.OrdenCompraProveedor"/>
+<fullyQualifiedTypeName name="entities.OrdenCompraCliente"/>
+<fullyQualifiedTypeName name="entities.RemitoCliente"/>
+<fullyQualifiedTypeName name="entities.Cliente"/>
+<fullyQualifiedTypeName name="entities.OficinaVenta"/>
+</qualifiedTypeNameHistroy>

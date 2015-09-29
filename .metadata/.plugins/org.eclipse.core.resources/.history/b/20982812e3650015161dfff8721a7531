@@ -1,0 +1,30 @@
+package entities;
+import javax.persistence.*;
+
+
+@Entity
+public class OficinasVentas {
+
+	@Id 
+	@GeneratedValue(strategy =  GenerationType.AUTO)
+	private int id;
+	private String nombre;
+	private String telefono;
+	private String provincia;
+	private String localidad;
+	
+	
+	public int getId() {
+		return id;
+	}
+
+	
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+}

@@ -1,0 +1,10 @@
+package entities;
+public class ItemFactura {
+	private int id;
+	private int cantidad;
+	private float precioUnitario;
+	private Factura factura;
+	private Rodamiento rodamiento;
+	
+
+}

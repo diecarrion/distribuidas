@@ -1,0 +1,11 @@
+package entities;
+import java.util.Date;
+
+public class DescuentoCliente {
+	private int id;
+	private String condEsp;
+	private float montoDescuento;
+	private float porcentaje;
+	private Date vigenteHasta;
+
+}

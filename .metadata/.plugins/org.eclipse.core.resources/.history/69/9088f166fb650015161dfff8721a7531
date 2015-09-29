@@ -1,0 +1,27 @@
+package entities;
+
+import java.util.Date;
+
+public class DescuentoCantidad {
+	
+	private int id;
+	private int cantidad;
+	private String condEsp;
+	private float montoDescuento;
+	private float porcentaje;
+	private Date vigenteHasta;
+	
+	public DescuentoCantidad() {
+
+	}
+
+	public DescuentoCantidad(int id, int cantidad,  String condEsp, float montoDescuento, float porcentaje, Date vigenteHasta){
+		this.id = id;
+		this.condEsp = condEsp;
+		this.montoDescuento = montoDescuento;
+		this.porcentaje = porcentaje;
+		this.vigenteHasta = vigenteHasta;
+	}
+	
+
+}

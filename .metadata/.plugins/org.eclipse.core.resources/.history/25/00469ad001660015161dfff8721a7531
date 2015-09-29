@@ -1,0 +1,24 @@
+package entities;
+
+import java.util.Date;
+
+public class Stock {
+	private int id;
+	private int cantidad;
+	private float precioUnitario;
+	private Rodamiento rodamiento;
+	private OrdenCompraProveedor ordenProveedor;
+	
+	public Stock() {
+
+	}
+
+	public Stock(int id, int cantidad, float precioUnitario, Rodamiento rodamiento, OrdenCompraProveedor ordenProveedor){
+		this.id = id;
+		this.cantidad = cantidad;
+		this.precioUnitario = precioUnitario;
+		this.rodamiento = rodamiento;
+		this.ordenProveedor = ordenProveedor;
+	}
+	
+}

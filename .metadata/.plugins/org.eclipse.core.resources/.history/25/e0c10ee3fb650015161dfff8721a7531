@@ -1,0 +1,22 @@
+package entities;
+
+import java.util.Date;
+
+public class Factura {
+
+	private int id;
+	private Date fecha;
+	private float montoTotal;
+	//private OficinaVenta oficina
+	private Cliente cliente;
+	
+	public Factura()
+	{
+		
+	}
+
+	public Factura(int id, Date fecha, float montoTotal)
+	{
+		this.id = id;
+	}
+}

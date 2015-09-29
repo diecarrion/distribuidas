@@ -1,0 +1,21 @@
+package entities;
+
+import java.util.Date;
+
+public class ItemOrdenCompraOV {
+	private int id;
+	private int cantidad;
+	private Rodamiento rodamiento;
+	private OrdenCompraCliente ordenCompra;
+	
+	public ItemOrdenCompraOV() {
+
+	}
+
+	public ItemOrdenCompraOV(int id, int cantidad){
+		this.numero = num;
+		this.fecha = fecha;
+	}
+	
+
+}

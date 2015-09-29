@@ -1,0 +1,45 @@
+package entities;
+import java.util.Date;
+
+public class Cotizacion {
+	
+	private int id;
+	private Date fecha;
+	private OficinaVenta oficina;
+	
+	public Cotizacion() {
+
+	}
+
+	public Cotizacion(int id, Date fecha, OficinaVenta oficina){
+		this.id = id;
+		this.fecha = fecha;
+		this.oficina = oficina;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public Date getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+	
+	public OficinaVenta getOficinaVenta() {
+		return oficina;
+	}
+
+	public void setOficinaVenta(OficinaVenta oficina) {
+		this.oficina = oficina;
+	}
+	
+
+}

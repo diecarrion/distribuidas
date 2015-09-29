@@ -1,0 +1,11 @@
+package entities;
+
+import java.util.Date;
+
+public class Factura {
+
+	private int id;
+	private Date fecha;
+	private float montoTotal;
+
+}

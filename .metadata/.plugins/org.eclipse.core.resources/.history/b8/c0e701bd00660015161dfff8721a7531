@@ -1,0 +1,20 @@
+package entities;
+
+public class EstadoOrdenCompraCliente {
+	private String estado;
+	private OrdenCompraCliente ordenCliente;
+	private OrdenCompraProveedor ordenProveedor;
+	
+	public EstadoOrdenCompraCliente()
+	{
+		
+	}
+	
+	public EstadoOrdenCompraCliente(string estado, OrdenCompraCliente ordenCliente, OrdenCompraProveedor ordenProveedor)
+	{
+		this.estado = estado;
+		this.ordenCliente = ordenCliente;
+		this.ordenProveedor = ordenProveedor;
+	}
+
+}

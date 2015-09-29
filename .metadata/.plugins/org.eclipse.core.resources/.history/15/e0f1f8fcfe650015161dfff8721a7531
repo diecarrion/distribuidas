@@ -1,0 +1,18 @@
+package entities;
+
+import java.util.Date;
+
+public class RemitoCliente {
+	private int id;
+	private Date fecha;
+	private Cliente cliente;
+	
+	public RemitoCliente() {
+
+	}
+
+	public RemitoCliente(int id, Date fecha){
+		this.id = id;
+		this.fecha = fecha;
+	}
+}

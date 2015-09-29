@@ -1,0 +1,24 @@
+package entities;
+
+import java.util.Date;
+
+public class ItemFactura {
+	private int id;
+	private int cantidad;
+	private float precioUnitario;
+	private Factura factura;
+	private Rodamiento rodamiento;
+	
+	public ItemFactura()
+	{
+		
+	}
+
+	public ItemFactura(int id, int cantidad, float precioUnitario)
+	{
+		this.id = id;
+		this.fecha = fecha;
+		this.montoTotal = montoTotal;
+	}
+
+}

@@ -1,0 +1,10 @@
+package entities;
+
+public class OficinasVentas {
+
+	private int id;
+	private String nombre;
+	private String telefono;
+	private String provincia;
+	private String localidad;
+}

@@ -1,0 +1,21 @@
+package entities;
+
+import java.util.Date;
+
+public class RemitoProveedor {
+	private int id;
+	private Date fecha;
+	private Proveedor proveedor;
+	private OrdenCompraProveedor ordenProveedor;
+	
+	public RemitoProveedor() {
+
+	}
+
+	public RemitoProveedor(int id, Date fecha, Proveedor proveedor, OrdenCompraProveedor ordenProveedor){
+		this.id = id;
+		this.fecha = fecha;
+		this.proveedor = proveedor;
+		this.ordenProveedor = ordenProveedor;
+	}
+}

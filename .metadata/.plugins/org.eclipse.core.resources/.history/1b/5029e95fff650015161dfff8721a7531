@@ -1,0 +1,13 @@
+package entities;
+
+import java.util.Date;
+
+public class BultosOV {
+	private int id;
+	private Date fecha;
+	//private OficinaVenta;
+	private Factura factura;
+	private Cliente cliente;
+	private RemitoCliente remito;
+	
+}

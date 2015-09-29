@@ -1,0 +1,23 @@
+package entities;
+public class Proveedor {
+	private int id;
+	private String identificacion;
+	private String telefono;
+	private String cuit;
+	private String direccion;
+	private String provincia;
+	
+	public Proveedor() {
+
+	}
+
+	public Proveedor(int id, String identificacion, String cuit, String telefono,
+			String direccion, String provincia) {
+		this.id = id;
+		this.identificacion = identificacion;
+		this.telefono = telefono;
+		this.cuit = cuit;
+		this.provincia = provincia;
+		this.direccion = direccion;
+	}
+}

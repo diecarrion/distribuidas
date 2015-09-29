@@ -1,0 +1,9 @@
+package entities;
+public class Proveedor {
+	private int id;
+	private String identificacion;
+	private String telefono;
+	private String cuit;
+	private String direccion;
+	private String provincia;
+}
